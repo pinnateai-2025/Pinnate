@@ -1,0 +1,647 @@
+.header-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    filter: blur(2px);
+}
+
+.logo-illust {
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    pointer-events: none;
+}
+
+.logo-illust img {
+    width: 410px;
+    height: 418px;
+}
+
+.info-container {
+    width: 60%;
+    margin-top: 200px;
+    position: relative;
+    z-index: 100;
+    padding: 40px 60px;
+}
+
+.heading h1 {
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 75px;
+    line-height: 104px;
+    letter-spacing: 0px;
+}
+
+.heading h1 span {
+    color: rgba(3, 205, 149, 1);
+}
+
+.heading h6 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 50px;
+}
+
+.heading .heading-p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 40px;
+}
+
+.mobile-view-p {
+    display: none;
+}
+
+.btns {
+    margin-top: 120px;
+    display: flex;
+    gap: 40px;
+}
+
+.btns .let-connect,
+.btns .portfolio {
+    height: 56px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 25.5px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 50px;
+}
+
+
+.btns .let-connect {
+    width: 360px;
+    background: rgba(0, 85, 61, 0.51);
+    border: 2px solid rgba(3, 205, 149, 1);
+    cursor: pointer;
+}
+
+.btns .portfolio {
+    width: 250px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.btns .portfolio:hover {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.form-container {
+    width: 40%;
+    margin-top: 200px;
+    padding: 40px 60px;
+    z-index: 100;
+}
+
+.form {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    border-radius: 30px;
+    border: 2px solid rgba(3, 205, 149, 1);
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.form input,
+.form textarea {
+    width: 85%;
+    height: 60px;
+    border-radius: 5px;
+    border: 2px solid rgba(3, 205, 149, 1);
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.form input::placeholder {
+    color: #fff;
+}
+
+.form .name {
+    background: rgba(0, 0, 0, 1) url("/src/assets/name-icon.png") no-repeat 15px center;
+    background-size: 14px 17px;
+    padding-left: 40px;
+}
+
+.form .phone-number {
+    background: rgba(0, 0, 0, 1) url("/src/assets/call-icon.png") no-repeat 15px center;
+    background-size: 14px 16px;
+    padding-left: 40px;
+}
+
+.form .email-id {
+    background: rgba(0, 0, 0, 1) url("/src/assets/email-icon.png") no-repeat 15px center;
+    background-size: 15px 11px;
+    padding-left: 40px;
+}
+
+.form .message {
+    background: rgba(0, 0, 0, 1) url("/src/assets/message-icon.png") no-repeat 15px 15px;
+    background-size: 15px 14px;
+    padding-left: 40px;
+    height: 140px;
+    resize: vertical;
+}
+
+.message::placeholder {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form p {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0;
+    align-self: flex-start;
+    margin-left: 7%;
+}
+
+.form p span {
+    color: rgba(3, 205, 149, 1);
+}
+
+.form .mobile-para {
+    display: none;
+}
+
+.form button {
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 6px 12px;
+    color: #fff;
+    background: rgba(0, 85, 61, 0.51);
+    border: 2px solid rgba(3, 205, 149, 1);
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+    .header-container {
+        height: 1500px;
+        flex-direction: column;
+    }
+
+    .logo-illust {
+        top: 30%;
+        left: 50%;
+    }
+
+    .logo-illust img {
+        width: 410px;
+        height: 318px;
+    }
+
+    .info-container {
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    .heading h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    .heading h6 {
+        line-height: 35px;
+        margin-top: 30px;
+    }
+
+    .heading .heading-p {
+        line-height: 35px;
+        margin-top: 20px;
+    }
+
+    .btns {
+        margin-top: 60px;
+    }
+
+    .form-container {
+        width: 100%;
+        margin-top: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form {
+        width: 70%;
+    }
+
+    .form .message {
+        padding-top: 15px;
+    }
+
+    .form p {
+        display: none;
+    }
+
+    .form .mobile-para {
+        display: block;
+    }
+
+    .form button {
+        width: 50%;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px) {
+    .logo-illust {
+        top: 25%;
+    }
+
+    .heading h1 {
+        font-size: 65px;
+        line-height: 80px;
+    }
+
+    .heading h6 {
+        line-height: 30px;
+        margin-top: 25px;
+        font-size: 26px;
+    }
+
+    .heading .heading-p {
+        line-height: 30px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    .heading h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        height: 1400px;
+    }
+
+    .logo-illust {
+        top: 23%;
+        left: 55%;
+    }
+
+    .logo-illust img {
+        width: 350px;
+        height: 320px;
+    }
+
+    .info-container {
+        margin-top: 100px;
+    }
+
+    .heading h1 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+
+    .heading h6 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+    .heading .heading-p {
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+    .btns {
+        margin-top: 80px;
+        gap: 30px;
+    }
+
+    .btns .let-connect,
+    .btns .portfolio {
+        height: 50px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .btns .let-connect {
+        width: 300px;
+    }
+
+    .btns .portfolio {
+        width: 220px;
+    }
+
+    .form input,
+    .form textarea {
+        height: 50px;
+        font-size: 13px;
+    }
+
+    .form .name {
+        background-size: 12px 15px;
+    }
+
+    .form .phone-number {
+        background-size: 12px 14px;
+    }
+
+    .form .email-id {
+        background-size: 13px 10px;
+    }
+
+    .form .message {
+        background-size: 13px 12px;
+        height: 120px;
+        padding-top: 13px;
+    }
+
+    .form p {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .form button {
+        width: 35%;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header-container {
+        height: 1250px;
+    }
+
+    .heading h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .heading h6 {
+        font-size: 22px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+
+    .heading .heading-p {
+        font-size: 12px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+
+    .btns {
+        margin-top: 60px;
+    }
+
+    .form-container {
+        margin-top: 270px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-container {
+        height: 1200px;
+    }
+
+    .heading h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .heading h6 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 12px;
+    }
+
+    .heading .heading-p {
+        font-size: 10px;
+        line-height: 22px;
+        margin-top: 12px;
+    }
+
+    .btns {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-container {
+        height: 1100px;
+    }
+
+    .logo-illust {
+        top: 23%;
+        left: 55%;
+    }
+
+    .logo-illust img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .heading h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .heading h6 {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .heading .heading-p {
+        font-size: 8px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .btns {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header-container {
+        height: 800px;
+    }
+
+    .logo-illust {
+        top: 30%;
+    }
+
+    .info-container {
+        padding: 20px;
+    }
+
+    .heading-p {
+        display: none;
+    }
+
+    .mobile-view-p {
+        display: block;
+        font-size: 11px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 10px;
+    }
+
+    .btns {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .btns .let-connect,
+    .btns .portfolio {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .btns .let-connect {
+        width: 220px;
+    }
+
+    .btns .portfolio {
+        width: 150px;
+    }
+
+    .form-container {
+        margin-top: 220px;
+        padding: 20px;
+    }
+
+    .form {
+        width: 90%;
+        gap: 10px;
+        padding: 30px 0;
+    }
+
+    .form input,
+    .form textarea {
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .form .name {
+        background-size: 10px 13px;
+    }
+
+    .form .phone-number {
+        background-size: 10px 12px;
+    }
+
+    .form .email-id {
+        background-size: 11px 8px;
+    }
+
+    .form .message {
+        background-size: 11px 10px;
+        height: 100px;
+        padding-top: 12px;
+    }
+
+    .form p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .form button {
+        width: 35%;
+        height: 40px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header-container {
+        height: 700px;
+    }
+
+    .logo-illust {
+        top: 35%;
+    }
+
+    .logo-illust img {
+        width: 220px;
+        height: 180px;
+    }
+
+    .heading h1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .heading h6 {
+        font-size: 13px;
+        line-height: 17px;
+        margin-top: 8px;
+    }
+
+    .mobile-view-p {
+        line-height: 17px;
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header-container {
+        height: 600px;
+    }
+
+    .info-container {
+        margin-top: 80px;
+    }
+
+    .heading h1 {
+        font-size: 25px;
+    }
+
+    .heading h6 {
+        font-size: 11px;
+    }
+
+    .mobile-view-p {
+        font-size: 10px;
+    }
+}
