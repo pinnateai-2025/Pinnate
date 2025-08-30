@@ -1,0 +1,322 @@
+.faq-container {
+    width: 100%;
+}
+
+.worktogether-heading {
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    font-style: normal;
+    letter-spacing: 0px;
+    line-height: 90px;
+}
+
+.worktogether-heading h1 {
+    color: rgba(255, 255, 255, 1);
+}
+
+.worktogether-heading span {
+    color: rgba(3, 205, 149, 1);
+}
+
+.worktogether-second-heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 30px;
+}
+
+.mobile-view-p {
+    display: none;
+}
+
+.work-together {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 80px 0;
+}
+
+.we-work {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.we-discuss-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.we-discuss-img,
+.we-develop-img,
+.we-deliver-img {
+    height: 62px;
+    width: 62px;
+}
+
+.we-discuss1-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+}
+
+.we-work-info h6 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22.5px;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 1);
+}
+
+.we-work-info p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 1024px) {
+    .we-work {
+        gap: 10px;
+        max-width: 300px;
+    }
+
+    .we-discuss-img,
+    .we-develop-img,
+    .we-deliver-img {
+        height: 52px;
+        width: 52px;
+    }
+
+    .we-discuss1-img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .we-work-info h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .we-work-info p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    .worktogether-heading {
+        margin-top: 200px;
+        font-size: 34px;
+        line-height: 80px;
+    }
+
+    .worktogether-second-heading {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 25px;
+    }
+
+     .work-together {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .we-work {
+        justify-content: flex-start;
+        gap: 50px;
+        max-width: 70%;
+    }
+
+    .we-discuss-img,
+    .we-develop-img,
+    .we-deliver-img {
+        height: 62px;
+        width: 62px;
+    }
+
+    .we-discuss1-img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .we-work-info h6 {
+        font-size: 18px;
+        line-height: 22.5px;
+    }
+
+    .we-work-info p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .worktogether-heading {
+        margin-top: 180px;
+        font-size: 32px;
+        line-height: 80px;
+    }
+
+    .worktogether-second-heading {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .worktogether-heading {
+        margin-top: 150px;
+        font-size: 30px;
+    }
+
+    .worktogether-second-heading {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .worktogether-heading {
+        margin-top: 150px;
+        font-size: 26px;
+    }
+
+    .worktogether-second-heading {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .worktogether-heading {
+        margin-top: 120px;
+        font-size: 22px;
+    }
+
+    .worktogether-second-heading {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 425px) {
+    .worktogether-heading {
+        font-size: 18px;
+    }
+
+    .desktop-view-p {
+        display: none;
+    }
+
+    .mobile-view-p {
+        display: block;
+        font-size: 12px;
+        width: 90%;
+        margin-top: 0px;
+    }
+
+    .work-together {
+        gap: 50px;
+    }
+
+    .we-work {
+        gap: 30px;
+        max-width: 80%;
+    }
+
+    .we-discuss-img,
+    .we-develop-img,
+    .we-deliver-img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .we-discuss1-img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .we-work-info h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .we-work-info p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 375px) {
+    .worktogether-heading {
+        font-size: 16px;
+        margin-top: 100px;
+    }
+
+    .mobile-view-p {
+        font-size: 11px;
+    }
+
+    .we-work {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .worktogether-heading {
+        font-size: 14px;
+    }
+
+    .mobile-view-p {
+        font-size: 10px;
+    }
+
+    .we-work {
+        gap: 20px;
+    }
+
+    .we-discuss-img,
+    .we-develop-img,
+    .we-deliver-img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .we-discuss1-img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .we-work-info h6 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .we-work-info p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
