@@ -1,4 +1,5 @@
 import About from "../components/AboutUs/About";
+import FAQ from "../components/FAQ's/FAQ's";
 import Header from "../components/Header/Header";
 import Portfolio from "../components/Portfolio/Portfolio";
 import Services from "../components/Services/Services";
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Portfolio />
       <About />
       <Testimonials />
+      <FAQ />
     </div>
   )
 }
