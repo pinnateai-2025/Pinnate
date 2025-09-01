@@ -1,0 +1,378 @@
+.footer-container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 300px;
+}
+
+.footer-logo {
+    width: 100%;
+    max-width: 250px;
+    padding: 15px 0;
+}
+
+.footer-logo img {
+    width: 165px;
+    height: 30px;
+}
+
+.footer-logo p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+}
+
+.footer-contents {
+    width: 100%;
+    max-width: 700px;
+}
+
+.footer-menu-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    padding: 15px 0;
+}
+
+.footer-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.footer-menu ul li a:hover {
+    color: #fff;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.footer-info p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+.mail,
+.call,
+.location {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.number,
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-logo {
+    width: 18px;
+    height: 13px;
+    margin-top: 4px;
+}
+
+.call-logo {
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+}
+
+.location-logo {
+    width: 14px;
+    height: 19px;
+    margin-top: 3px;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        padding: 60px;
+    }
+
+    .footer-contents {
+        max-width: 600px;
+    }
+
+    .footer-menu ul {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer {
+        padding: 60px;
+    }
+
+    .footer-logo {
+        width: 100%;
+        max-width: 200px;
+        padding: 10px 0;
+    }
+
+    .footer-logo img {
+        width: 135px;
+        height: 25px;
+    }
+
+    .footer-logo p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .footer-contents {
+        max-width: 550px;
+    }
+
+    .footer-menu-icons {
+        padding: 10px 0;
+    }
+
+    .footer-menu ul {
+        gap: 20px;
+    }
+
+    .footer-menu ul li a {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .footer-icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-info {
+        padding: 10px 0;
+    }
+
+    .footer-info p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-contents {
+        max-width: 500px;
+    }
+
+    .mail,
+    .call,
+    .location {
+        gap: 3px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-logo {
+        max-width: 150px;
+    }
+
+    .footer-logo img {
+        width: 120px;
+        height: 22px;
+    }
+
+    .footer-logo p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .footer-contents {
+        max-width: 500px;
+    }
+
+    .footer-menu ul {
+        gap: 16px;
+    }
+
+    .footer-icons img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-info p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-contents {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-contents {
+        max-width: 350px;
+    }
+
+    .footer-menu ul {
+        gap: 10px;
+    }
+
+    .footer-menu ul li a {
+        font-size: 12px;
+    }
+
+    .footer-icons img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-info p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-logo {
+        max-width: 350px;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 165px;
+        height: 30px;
+    }
+
+    .footer-logo p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer-contents {
+        max-width: 100%;
+    }
+
+    .footer-menu ul {
+        gap: 25px;
+    }
+
+    .footer-menu ul li a {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .footer-icons {
+        gap: 10px;
+    }
+
+    .footer-icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-info p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .mail,
+    .call,
+    .location {
+        gap: 5px;
+    }
+
+    .mail-logo {
+        width: 15px;
+        height: 10px;
+    }
+
+    .call-logo {
+        width: 12px;
+        height: 12px;
+    }
+
+    .location-logo {
+        width: 12px;
+        height: 17px;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer-menu-icons {
+        padding: 15px 40px;
+    }
+
+    .footer-menu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-icons {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 40px;
+    }
+}

@@ -26,8 +26,12 @@ const Header = () => {
                     <p className='mobile-view-p'>We bring expertise, innovation, and user-focused design to every project. Let us transform your online presence with intuitive website design that drive growth and engagement.</p>
                 </div>
                 <div className="btns">
-                    <button className='let-connect'>Let's Connect</button>
-                    <button className='portfolio'>Portfolio</button>
+                    <div className='let-connect'>
+                        <button>Let's Connect</button>
+                    </div>
+                    <div className='portfolio'>
+                        <button>Portfolio</button>
+                    </div>
                 </div>
             </div>
 

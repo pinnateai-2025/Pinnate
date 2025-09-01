@@ -82,35 +82,36 @@
     gap: 40px;
 }
 
-.btns .let-connect,
-.btns .portfolio {
+.btns .let-connect button,
+.btns .portfolio button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 56px;
+    width: 100%;
     font-weight: 500;
     font-style: normal;
     font-size: 17px;
-    line-height: 25.5px;
+    line-height: 1;
     letter-spacing: 0.5px;
-    text-align: center;
-    vertical-align: middle;
     color: rgba(255, 255, 255, 1);
     border-radius: 50px;
-}
-
-
-.btns .let-connect {
-    width: 360px;
-    background: rgba(0, 85, 61, 0.51);
-    border: 2px solid rgba(3, 205, 149, 1);
     cursor: pointer;
 }
 
-.btns .portfolio {
+.btns .let-connect button {
+    width: 360px;
+    background: rgba(0, 85, 61, 0.51);
+    border: 2px solid rgba(3, 205, 149, 1);
+}
+
+.btns .portfolio button {
     width: 250px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 1);
 }
 
-.btns .portfolio:hover {
+.btns .portfolio button:hover {
     background: rgba(0, 0, 0, 0.75);
 }
 
@@ -354,18 +355,17 @@
         gap: 30px;
     }
 
-    .btns .let-connect,
-    .btns .portfolio {
+    .btns .let-connect button,
+    .btns .portfolio button {
         height: 50px;
         font-size: 16px;
-        line-height: 20px;
     }
 
-    .btns .let-connect {
+    .btns .let-connect button {
         width: 300px;
     }
 
-    .btns .portfolio {
+    .btns .portfolio button {
         width: 220px;
     }
 
@@ -460,7 +460,23 @@
 
     .btns {
         margin-top: 40px;
+        gap: 20px;
     }
+
+    .btns .let-connect button,
+    .btns .portfolio button {
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .btns .let-connect button {
+        width: 280px;
+    }
+
+    .btns .portfolio button {
+        width: 200px;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -497,6 +513,21 @@
 
     .btns {
         margin-top: 30px;
+        gap: 10px;
+    }
+
+    .btns .let-connect button,
+    .btns .portfolio button {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .btns .let-connect button {
+        width: 220px;
+    }
+
+    .btns .portfolio button {
+        width: 160px;
     }
 }
 
@@ -526,22 +557,17 @@
         margin-top: 10px;
     }
 
-    .btns {
-        margin-top: 30px;
-        gap: 20px;
-    }
-
-    .btns .let-connect,
-    .btns .portfolio {
+    .btns .let-connect button,
+    .btns .portfolio button {
         height: 40px;
         font-size: 14px;
     }
 
-    .btns .let-connect {
+    .btns .let-connect button {
         width: 220px;
     }
 
-    .btns .portfolio {
+    .btns .portfolio button {
         width: 150px;
     }
 
@@ -622,9 +648,17 @@
         line-height: 17px;
         margin-top: 8px;
     }
+
+    .btns .let-connect button {
+        width: 200px;
+    }
+
+    .btns .portfolio button {
+        width: 120px;
+    }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
     .header-container {
         height: 600px;
     }
@@ -643,5 +677,13 @@
 
     .mobile-view-p {
         font-size: 10px;
+    }
+
+    .btns .let-connect button {
+        width: 160px;
+    }
+
+    .btns .portfolio button {
+        width: 100px;
     }
 }
