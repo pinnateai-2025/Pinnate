@@ -1,10 +1,13 @@
-import React from 'react';
+import { useNavigate } from "react-router-dom";
 import "./Header.css";
 import Navbar from '../Navbar/Navbar';
 import bgVideo from "../../assets/pinnate-background.mp4";
 import logoIllust from "../../assets/logo-illust.png";
 
 const Header = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div className='header-container'>
 
@@ -27,7 +30,9 @@ const Header = () => {
                 </div>
                 <div className="btns">
                     <div className='let-connect'>
-                        <button>Let's Connect</button>
+                        <button onClick={() => navigate("/contact")}>
+                            Let's Connect
+                        </button>
                     </div>
                     <div className='portfolio'>
                         <button>Portfolio</button>
