@@ -1,4 +1,5 @@
 import About from "../components/AboutUs/About";
+import Contact from "../components/Contact/Contact";
 import FAQ from "../components/FAQ's/FAQ's";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
@@ -19,6 +20,7 @@ const HomePage = () => {
       <Testimonials />
       <FAQ />
       <WorkTogether />
+      <Contact />
       <Footer />
     </div>
   )
