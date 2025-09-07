@@ -6,7 +6,7 @@ import Mail from "../../assets/contact-mail.png";
 
 const Contact = () => {
     return (
-        <div className="contact-container">
+        <div className="contact-container" id="contact">
             <img src={Bg} alt="" className="contact-bg-image" />
             <div className="first-container">
                 <div className="first-container-heading">

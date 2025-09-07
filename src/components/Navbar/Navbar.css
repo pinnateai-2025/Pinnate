@@ -10,8 +10,7 @@
 }
 
 .navbar-container.sticky {
-    padding-top: 0;
-    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .company-logo {

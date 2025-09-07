@@ -9,7 +9,7 @@ const Header = () => {
     const navigate = useNavigate();
 
     return (
-        <div className='header-container'>
+        <div className='header-container' id="home">
 
             <Navbar />
 
@@ -35,7 +35,9 @@ const Header = () => {
                         </button>
                     </div>
                     <div className='portfolio'>
-                        <button>Portfolio</button>
+                        <a href="https://www.thetablegem.com/" target="_blank">
+                            <button>Portfolio</button>
+                        </a>
                     </div>
                 </div>
             </div>

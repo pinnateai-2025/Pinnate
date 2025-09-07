@@ -10,7 +10,7 @@ import img8 from "../../assets/portfolio-img8.png";
 
 const Portfolio = () => {
     return (
-        <div className="portfolio-container">
+        <div className="portfolio-container" id="portfolio">
             <div className="portfolio-heading">
                 <h1>Port<span>folio</span></h1>
             </div>

@@ -2,7 +2,7 @@ import "./Services.css";
 
 const Services = () => {
     return (
-        <div className="services-container">
+        <div className="services-container" id="services">
             <div className="services-heading">
                 <h1>A Full Service Holistic <br /> <span>Bespoke & Collaborative</span> Approach.</h1>
             </div>
