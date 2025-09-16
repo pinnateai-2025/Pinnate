@@ -1,5 +1,6 @@
 import "./Testimonials.css";
-import Image from "../../assets/testimonials-img.jpg";
+import virtue from "../../assets/testimonials-img.jpg";
+import tablegem from "../../assets/testimonials-img-table-gem.jpeg";
 
 const Testimonials = () => {
     return (
@@ -10,85 +11,25 @@ const Testimonials = () => {
             <div className="testimonials-inner-container">
                 <div className="testimonials">
                     <p>
-                        Great and fast worker! Always delivers high-
-                        quality work with incredible attention to detail.
-                        Reliable, efficient, and a pleasure to work with!
+                        Working with Pinnate was a game-changer for my e-commerce journey. The team understood my vision perfectly and delivered a sleek, user-friendly website that my customers love. From design to functionality, everything exceeded my expectations. I’ve seen a significant boost in customer engagement and sales since launch.
                     </p>
                     <div className="testimonials-img">
-                        <img src={Image} alt="testimonials-img" />
+                        <img src={tablegem} alt="testimonials-img-table-gem" />
                         <div className="testimonials-info">
-                            <h6>Vedang aryaa</h6>
-                            <p>UX Designer</p>
+                            <h6>Shahinda Abid</h6>
+                            <p>Founder, The Table Gem</p>
                         </div>
                     </div>
                 </div>
                 <div className="testimonials">
                     <p>
-                        Great and fast worker! Always delivers high-
-                        quality work with incredible attention to detail.
-                        Reliable, efficient, and a pleasure to work with!
+                       Pinnate brought our ideas to life with precision and creativity. Their ability to blend strategy, design, and technology helped us launch a platform that truly reflects our brand’s professionalism. The team was highly collaborative, responsive, and dedicated to delivering excellence at every stage.
                     </p>
                     <div className="testimonials-img">
-                        <img src={Image} alt="testimonials-img" />
+                        <img src={virtue} alt="testimonials-img-virtue" />
                         <div className="testimonials-info">
-                            <h6>Vedang aryaa</h6>
-                            <p>UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="testimonials">
-                    <p>
-                        Great and fast worker! Always delivers high-
-                        quality work with incredible attention to detail.
-                        Reliable, efficient, and a pleasure to work with!
-                    </p>
-                    <div className="testimonials-img">
-                        <img src={Image} alt="testimonials-img" />
-                        <div className="testimonials-info">
-                            <h6>Vedang aryaa</h6>
-                            <p>UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="testimonials">
-                    <p>
-                        Great and fast worker! Always delivers high-
-                        quality work with incredible attention to detail.
-                        Reliable, efficient, and a pleasure to work with!
-                    </p>
-                    <div className="testimonials-img">
-                        <img src={Image} alt="testimonials-img" />
-                        <div className="testimonials-info">
-                            <h6>Vedang aryaa</h6>
-                            <p>UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="testimonials">
-                    <p>
-                        Great and fast worker! Always delivers high-
-                        quality work with incredible attention to detail.
-                        Reliable, efficient, and a pleasure to work with!
-                    </p>
-                    <div className="testimonials-img">
-                        <img src={Image} alt="testimonials-img" />
-                        <div className="testimonials-info">
-                            <h6>Vedang aryaa</h6>
-                            <p>UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="testimonials">
-                    <p>
-                        Great and fast worker! Always delivers high-
-                        quality work with incredible attention to detail.
-                        Reliable, efficient, and a pleasure to work with!
-                    </p>
-                    <div className="testimonials-img">
-                        <img src={Image} alt="testimonials-img" />
-                        <div className="testimonials-info">
-                            <h6>Vedang aryaa</h6>
-                            <p>UX Designer</p>
+                            <h6>Vedang Aryaa</h6>
+                            <p>Marketing Head, VirtuTeams</p>
                         </div>
                     </div>
                 </div>

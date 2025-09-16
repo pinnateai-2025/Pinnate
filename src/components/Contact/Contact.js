@@ -48,11 +48,10 @@ const Contact = () => {
                     <div className="contact-infomation">
                         <div className="contact-call">
                             <img src={Call} alt="call" />
-                            <p>Call Pinnate</p>
+                            <p>Call PinnateAi</p>
                         </div>
                         <div className="para">
-                            <p>+91 9123456789</p>
-                            <p>+91 9234567891</p>
+                            <p>+91 7970959155</p>
                         </div>
                     </div>
                     <div className="contact-infomation">
@@ -61,7 +60,7 @@ const Contact = () => {
                             <p>Drop an Email</p>
                         </div>
                         <div className="para">
-                            <p>Info@Pennate.com</p>
+                            <p>pinnateai@gmail.com</p>
                         </div>
                     </div>
                 </div>

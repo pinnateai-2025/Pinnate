@@ -13,9 +13,7 @@ const Footer = () => {
                 <div className="footer-logo">
                     <img src={FooterLogo} alt="footer-logo" />
                     <p>
-                        Olive is a full-service digital & web
-                        solutions agency based in New
-                        Delhi, India
+                        A full-service digital & web solutions agency delivering innovative, future-ready experiences.
                     </p>
                 </div>
                 <div className="footer-contents">
@@ -37,13 +35,13 @@ const Footer = () => {
                     <div className="footer-info">
                         <div className="mail">
                             <img src={Mail} alt="mail" className="mail-logo" />
-                            <p>Info@Pennate.com</p>
+                            <p>pinnateai@gmail.com</p>
                         </div>
                         <div className="call">
                             <img src={Call} alt="call" className="call-logo" />
                             <div className="number">
-                                <p>+91 9234567891</p>
-                                <p>+91 9123456789</p>
+                                <p>+91 7970959155</p>
+                                
                             </div>
                         </div>
                         <div className="location">

@@ -10,79 +10,63 @@ const Services = () => {
                 <div className="services">
                     <span>01</span>
                     <div className="service">
-                        <h6>Digital Strategy</h6>
+                        <h6>Website Development</h6>
                         <p>
-                            As a Top web design and development company in Delhi, we help businesses navigate digital
-                            transformations by aligning strategies with evolving technologies and consumer behaviors. Our approach
-                            turns challenges into opportunities, driving growth and enhancing your brand’s digital presence.
+                            We craft high-performance, scalable, and visually engaging websites that are built to convert. From corporate websites to advanced e-commerce platforms, Pinnate ensures every website is fast, responsive, and optimized for the best user experience.
                         </p>
                     </div>
                 </div>
                 <div className="services">
                     <span>02</span>
                     <div className="service">
-                        <h6>Design Services</h6>
+                        <h6>UI/UX Design</h6>
                         <p>
-                            Our web design company creates visually striking, user-centric designs that deliver engaging experiences
-                            and lasting impressions. Focused on business growth, our web design services ensure relevance and responsiveness
-                            across all digital platforms. We are recognized among the top web design companies in Delhi for delivering
-                            innovative solutions.
+                            Our design philosophy blends creativity with functionality. Through in-depth user research, wireframing, and prototyping, we craft seamless digital experiences that are intuitive, engaging, and conversion-focused. With Pinnate, design goes beyond aesthetics—it becomes a strategic growth driver.
                         </p>
                     </div>
                 </div>
                 <div className="services">
                     <span>03</span>
                     <div className="service">
-                        <h6>E-Commerce Solutions</h6>
+                        <h6>AI Solutions & Automation</h6>
                         <p>
-                            Our website development company in Delhi specializes in crafting seamless, intuitive e-commerce solutions that
-                            engage users and drive conversions. We help businesses create compelling, user-friendly online stores that stand
-                            out and perform, making us a trusted web development company in Delhi for e-commerce needs.
+                         We develop intelligent AI-powered solutions that go beyond automation. From smart chatbots and virtual assistants to predictive analytics and workflow automation, our AI-driven systems enhance customer experiences, improve decision-making, and free up time for what matters most.
                         </p>
                     </div>
                 </div>
                 <div className="services">
                     <span>04</span>
                     <div className="service">
-                        <h6>Web Development</h6>
+                        <h6>App Development</h6>
                         <p>
-                            As a Top web design and development company in Delhi, we help businesses navigate digital
-                            transformations by aligning strategies with evolving technologies and consumer behaviors. Our approach
-                            turns challenges into opportunities, driving growth and enhancing your brand’s digital presence.
+                            We design and develop mobile applications that are intuitive, secure, and scalable. Whether it’s Android, iOS, or cross-platform, our apps empower businesses to connect with their audiences seamlessly and deliver real value on the go.
                         </p>
                     </div>
                 </div>
                 <div className="services">
                     <span>05</span>
                     <div className="service">
-                        <h6>Web Application Development</h6>
+                        <h6>SEO & AIO (AI Optimization)</h6>
                         <p>
-                            Our web development company India specializes in building secure, scalable web applications that offer 
-                            flexibility and remote access. As a top web design agency in Delhi, we customize solutions to meet business 
-                            needs, enhancing both user experience and operational efficiency.
+                            Going beyond traditional SEO, we integrate AI-powered optimization to boost your online visibility, enhance search rankings, and personalize user experiences. Our hybrid SEO+AIO strategy ensures your business is discoverable, relevant, and future-ready.
                         </p>
                     </div>
                 </div>
                 <div className="services">
                     <span>06</span>
                     <div className="service">
-                        <h6>Technology</h6>
+                        <h6>Software Development</h6>
                         <p>
-                            We help businesses integrate cutting-edge technologies into their operations, ensuring seamless workflows 
-                            and greater efficiency. As a premier web solutions company, we incorporate AI, machine learning, and automation 
-                            tools that enhance business intelligence, improve decision-making, and optimize internal processes for faster 
-                            growth and innovation.
+                            From enterprise solutions to custom tools, Pinnate builds software that simplifies complex processes, improves efficiency, and accelerates business growth. Every solution is tailored to your unique workflow and long-term goals.
                         </p>
                     </div>
                 </div>
                 <div className="services">
                     <span>07</span>
                     <div className="service">
-                        <h6>Web Hosting Services</h6>
+                        <h6>Maintenance & Support</h6>
                         <p>
-                            We provide reliable, secure, and high-performance web hosting services, including managed dedicated servers. 
-                            As a trusted website development company Delhi, we ensure your website runs smoothly, with fast load times and 
-                            maximum uptime for users, reinforcing our reputation as a premier web design and development company.
+                            We don’t just build—we care for what we create. Our dedicated maintenance and support services keep your websites, apps, and software running smoothly with regular updates, performance monitoring, bug fixes, and security enhancements. With Pinnate, your digital assets are always future-proof.
                         </p>
                     </div>
                 </div>

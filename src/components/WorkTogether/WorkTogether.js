@@ -29,9 +29,7 @@ const WorkTogether = () => {
                     <div className="we-work-info">
                         <h6>We Discuss</h6>
                         <p>
-                            We’re a full-service digital marketing agency
-                            that hustles hard to makes users happy while
-                            infusing everything we do with the heart.
+                            We’re a full-service digital solutions agency that listens, understands, and collaborates closely with you. Every project begins with meaningful discussions to uncover insights, align goals, and shape strategies that truly connect with your audience.
                         </p>
                     </div>
                 </div>
@@ -40,8 +38,7 @@ const WorkTogether = () => {
                     <div className="we-work-info">
                         <h6>We Develop</h6>
                         <p>
-                            We see beyond the insights and take you to
-                            the eye stand.
+                            We go beyond ideas—we turn them into reality. With a blend of creativity, technology, and innovation, we design and develop solutions that are not only functional but also future-ready.
                         </p>
                     </div>
                 </div>
@@ -50,9 +47,7 @@ const WorkTogether = () => {
                     <div className="we-work-info">
                         <h6>We Deliver</h6>
                         <p>
-                            As a multifaceted digital marketing agency,
-                            we craft beautiful solutions that outdo
-                            business goals and garner recognition.
+                            We believe in delivering more than just projects—we deliver results. Our solutions are crafted to exceed business goals, create lasting impact, and build recognition for your brand.
                         </p>
                     </div>
                 </div>

@@ -13,16 +13,17 @@ const About = () => {
                 </div>
                 <div className="about-us-info">
                     <p>
-                        We are a multinational creative company that combines design expertise with technology and intelligence to revolutionize
-                        your business. Our team is a powerhouse of logical thinking, creative minds, and problem-solving skills. Since 2015, we have
-                        added skilful, experienced, tech-savvy, enthusiastic experts and professionals who strengthens our family. Who are
-                        committed to providing the most appropriate solutions, consultation, and results according to industry standards so our clients can achieve their set goals.
+                        At Pinnate, we believe technology and creativity go hand in hand. We are a full-service digital solutions company dedicated to building meaningful digital experiences that help businesses grow, adapt, and thrive in today’s fast-changing world.
                     </p>
                     <p>
-                        Right from hearing your ideas and putting it into a product canvas, as well as establishing the presence of the product
-                        globally we design your websites and applications for android and iOS effectively by working closely with project stakeholders
-                        and clients. We provide various services under one roof.
+                        Our approach is holistic and collaborative—we don’t just deliver services, we partner with you to understand your goals, challenges, and vision. From designing stunning websites and user-centric apps to developing intelligent AI-driven solutions, we ensure that every project reflects innovation, efficiency, and long-term value.
                     </p>
+                    <p>
+                        With a team of skilled developers, designers, and strategists, Pinnate blends technology, design, and strategy into tailor-made solutions that drive measurable impact. Whether you’re a startup looking to establish your presence or an enterprise aiming to scale, we provide the expertise and support you need to succeed.
+                    </p>
+                    <p><strong>
+                        At Pinnate, our mission is simple: to turn ideas into digital realities that inspire, engage, and deliver results.
+                    </strong></p>
                 </div>
             </div>
         </div>

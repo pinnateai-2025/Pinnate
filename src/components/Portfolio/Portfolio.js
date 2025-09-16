@@ -10,7 +10,9 @@ const Portfolio = () => {
             </div>
             <div className="portfolio-details">
                 <div className="portfolio">
+                    <a href="https://www.thetablegem.com" target="_blank" rel="noopener noreferrer">
                     <img src={TableGem} alt="Table-Gem" />
+                    </a>
                     <div className="portfolio-text">
                         <h6>The Table Gem</h6>
                         <p>
@@ -23,7 +25,9 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="portfolio">
-                    <img src={VirtuTeams} alt="Virtu-Teams" />
+                    <a href="https://www.virtuteams.com/marketing" target="_blank" rel="noopener noreferrer">
+                        <img src={VirtuTeams} alt="Virtu-Teams" />
+                    </a>
                     <div className="portfolio-text">
                         <h6>Virtu Teams</h6>
                         <p>

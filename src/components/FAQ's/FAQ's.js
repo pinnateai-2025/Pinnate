@@ -8,24 +8,28 @@ const FAQ = () => {
 
     const faqs = [
         {
-            question: "What makes “Pinnate” different from agencies or freelancers?",
-            answer: "We’re not just another agency – We’re India’s #1 website design & development powerhouse. Unlike agencies that charge high fees with slow turnaround times or freelancers who may lack reliability, we offer high-quality, fast, and scalable solutions with dedicated support.",
+            question: "Why should I choose Pinnate over other agencies?",
+            answer: "Because we go beyond just delivering projects—we become your digital partner. With a focus on innovation, collaboration, and measurable results, Pinnate ensures your business is future-ready.",
         },
         {
-            question: "What makes “Pinnate” different from agencies or freelancers?",
-            answer: "We’re not just another agency – We’re India’s #1 website design & development powerhouse. Unlike agencies that charge high fees with slow turnaround times or freelancers who may lack reliability, we offer high-quality, fast, and scalable solutions with dedicated support.",
+            question: "Do you only work with large businesses or also with startups?",
+            answer: "We work with businesses of all sizes. Whether you’re a startup looking to build your first digital presence or an enterprise seeking to scale, our solutions are tailored to fit your goals.",
         },
         {
-            question: "What makes “Pinnate” different from agencies or freelancers?",
-            answer: "We’re not just another agency – We’re India’s #1 website design & development powerhouse. Unlike agencies that charge high fees with slow turnaround times or freelancers who may lack reliability, we offer high-quality, fast, and scalable solutions with dedicated support.",
+            question: "How long does it take to build a website or app?",
+            answer: "Project timelines depend on complexity and requirements. A standard website can take 3–6 weeks, while larger projects like apps or enterprise solutions may take 2–4 months. We provide clear timelines after understanding your needs.",
         },
         {
-            question: "What makes “Pinnate” different from agencies or freelancers?",
-            answer: "We’re not just another agency – We’re India’s #1 website design & development powerhouse. Unlike agencies that charge high fees with slow turnaround times or freelancers who may lack reliability, we offer high-quality, fast, and scalable solutions with dedicated support.",
+            question: "Can you integrate AI into my business processes?",
+            answer: "Absolutely. We specialize in AI Solutions & Automation, including smart chatbots, predictive analytics, and workflow automation to improve efficiency, customer engagement, and decision-making.",
         },
         {
-            question: "What makes “Pinnate” different from agencies or freelancers?",
-            answer: "We’re not just another agency – We’re India’s #1 website design & development powerhouse. Unlike agencies that charge high fees with slow turnaround times or freelancers who may lack reliability, we offer high-quality, fast, and scalable solutions with dedicated support.",
+            question: "How much does a project cost?",
+            answer: "Costs vary depending on the scope and complexity of the project. We create customized proposals based on your requirements, ensuring transparency and value for your investment.",
+        },
+        {
+            question: "How do you ensure my project stands out?",
+            answer: "Our approach combines strategy, creativity, and technology. We don’t use cookie-cutter templates—instead, we create bespoke solutions that align with your brand identity and business objectives.",
         },
     ];
 
