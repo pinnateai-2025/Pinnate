@@ -1,12 +1,6 @@
 import "./Portfolio.css";
-import img1 from "../../assets/portfolio-img1.png";
-import img2 from "../../assets/portfolio-img2.png";
-import img3 from "../../assets/portfolio-img3.png";
-import img4 from "../../assets/portfolio-img4.png";
-import img5 from "../../assets/portfolio-img5.png";
-import img6 from "../../assets/portfolio-img6.png";
-import img7 from "../../assets/portfolio-img7.png";
-import img8 from "../../assets/portfolio-img8.png";
+import TableGem from "../../assets/portfolio-table-gem.PNG";
+import VirtuTeams from "../../assets/portfolio-virtu-teams.jpg";
 
 const Portfolio = () => {
     return (
@@ -16,59 +10,30 @@ const Portfolio = () => {
             </div>
             <div className="portfolio-details">
                 <div className="portfolio">
-                    <img src={img1} alt="portfolio-img1" />
+                    <img src={TableGem} alt="Table-Gem" />
                     <div className="portfolio-text">
-                        <h6>Encoto Pvt Ltd</h6>
-                        <p>Lorem ipsum dolor sit amet. Sed molestias dolor sit inventore galisum et asperiores incidunt eum  sanfa csader quidem.nostrum. </p>
+                        <h6>The Table Gem</h6>
+                        <p>
+                            Table Gem is an e-commerce platform designed for modern living, offering a curated
+                            collection of drinkware, serveware, home decor, etc. The website delivers a seamless
+                            shopping experience with a clean, responsive design and intuitive navigation, making
+                            it easy for customers to discover and purchase products that bring elegance and style
+                            into their homes.
+                        </p>
                     </div>
                 </div>
                 <div className="portfolio">
-                    <img src={img2} alt="portfolio-img2" />
+                    <img src={VirtuTeams} alt="Virtu-Teams" />
                     <div className="portfolio-text">
-                        <h6>Encoto Pvt Ltd</h6>
-                        <p>Lorem ipsum dolor sit amet. Sed molestias dolor sit inventore galisum et asperiores incidunt eum  sanfa csader quidem.nostrum. </p>
-                    </div>
-                </div>
-                <div className="portfolio">
-                    <img src={img3} alt="portfolio-img3" />
-                    <div className="portfolio-text">
-                        <h6>Encoto Pvt Ltd</h6>
-                        <p>Lorem ipsum dolor sit amet. Sed molestias dolor sit inventore galisum et asperiores incidunt eum  sanfa csader quidem.nostrum. </p>
-                    </div>
-                </div>
-                <div className="portfolio">
-                    <img src={img4} alt="portfolio-img4" />
-                    <div className="portfolio-text">
-                        <h6>Encoto Pvt Ltd</h6>
-                        <p>Lorem ipsum dolor sit amet. Sed molestias dolor sit inventore galisum et asperiores incidunt eum  sanfa csader quidem.nostrum. </p>
-                    </div>
-                </div>
-                <div className="portfolio">
-                    <img src={img5} alt="portfolio-img5" />
-                    <div className="portfolio-text">
-                        <h6>Encoto Pvt Ltd</h6>
-                        <p>Lorem ipsum dolor sit amet. Sed molestias dolor sit inventore galisum et asperiores incidunt eum  sanfa csader quidem.nostrum. </p>
-                    </div>
-                </div>
-                <div className="portfolio">
-                    <img src={img6} alt="portfolio-img6" />
-                    <div className="portfolio-text">
-                        <h6>Encoto Pvt Ltd</h6>
-                        <p>Lorem ipsum dolor sit amet. Sed molestias dolor sit inventore galisum et asperiores incidunt eum  sanfa csader quidem.nostrum. </p>
-                    </div>
-                </div>
-                <div className="portfolio">
-                    <img src={img7} alt="portfolio-img7" />
-                    <div className="portfolio-text">
-                        <h6>Encoto Pvt Ltd</h6>
-                        <p>Lorem ipsum dolor sit amet. Sed molestias dolor sit inventore galisum et asperiores incidunt eum  sanfa csader quidem.nostrum. </p>
-                    </div>
-                </div>
-                <div className="portfolio">
-                    <img src={img8} alt="portfolio-img8" />
-                    <div className="portfolio-text">
-                        <h6>Encoto Pvt Ltd</h6>
-                        <p>Lorem ipsum dolor sit amet. Sed molestias dolor sit inventore galisum et asperiores incidunt eum  sanfa csader quidem.nostrum. </p>
+                        <h6>Virtu Teams</h6>
+                        <p>
+                            Virtuteams Marketing delivers tailored digital marketing solutions designed to elevate
+                            businesses in today’s competitive landscape. Their services combine strategic content,
+                            data-driven campaigns, and strong creative design to help brands reach the right audience
+                            and build lasting connections. With a focus on measurable outcomes and modern aesthetics,
+                            the site reflects professionalism, clarity, and innovation—qualities I draw inspiration
+                            from in my own work.
+                        </p>
                     </div>
                 </div>
             </div>

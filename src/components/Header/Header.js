@@ -35,7 +35,7 @@ const Header = () => {
                         </button>
                     </div>
                     <div className='portfolio'>
-                        <a href="https://www.thetablegem.com/" target="_blank">
+                        <a href="#portfolio">
                             <button>Portfolio</button>
                         </a>
                     </div>
