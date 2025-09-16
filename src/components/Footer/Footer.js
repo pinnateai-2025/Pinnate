@@ -1,6 +1,6 @@
 import "./Footer.css";
 import FooterLogo from "../../assets/footer-logo.png";
-import Facebook from "../../assets/facebook.png";
+import Instagram from "../../assets/instagram.png";
 import Linkedin from "../../assets/linkedin.png";
 import Mail from "../../assets/mail.png";
 import Call from "../../assets/call.png";
@@ -30,8 +30,8 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="footer-icons">
-                            <img src={Facebook} alt="facebook" />
-                            <img src={Linkedin} alt="instagram" />
+                            <a href="https://www.instagram.com/pinnate.ai?igsh=MWNiOGpwajI1dnh6Ng==" target="_blank"><img src={Instagram} alt="Instagram" /></a>
+                            <a href="https://www.linkedin.com/company/pinnate-ai/" target="_blank"><img src={Linkedin} alt="Linkedin" /></a>
                         </div>
                     </div>
                     <div className="footer-info">
