@@ -3,10 +3,36 @@ import "./Header.css";
 import Navbar from '../Navbar/Navbar';
 import bgVideo from "../../assets/pinnate-background.mp4";
 import logoIllust from "../../assets/logo-illust.png";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Header = () => {
 
     const navigate = useNavigate();
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                "service_53shxhb",   // Service ID
+                "template_96i4eji",  // Template ID
+                form.current,
+                "8D6AnpyRj5ss70uO7"    // Public Key
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    alert("Your message has been sent successfully!");
+                    form.current.reset();
+                },
+                (error) => {
+                    console.log(error.text);
+                    alert("Something went wrong, please try again.");
+                }
+            );
+    };
 
     return (
         <div className='header-container' id="home">
@@ -43,18 +69,39 @@ const Header = () => {
             </div>
 
             <div className='form-container'>
-                <div className="form">
-                    <input type="text" placeholder='Name' className='name' />
-                    <input type="text" placeholder='Phone Number' className='phone-number' />
-                    <input type="text" placeholder='Email ID' className='email-id' />
+                <form ref={form} onSubmit={sendEmail} className="form">
+                     <input
+                        type="text"
+                        name="user_name"
+                        placeholder="Name"
+                        className="name"
+                        required
+                    />
+                    <input
+                        type="text"
+                        name="user_phone"
+                        placeholder="Phone Number"
+                        className="phone-number"
+                        required
+                    />
+                    <input
+                        type="email"
+                        name="user_email"
+                        placeholder="Email ID"
+                        className="email-id"
+                        required
+                    />
                     <textarea
+                        name="message"
                         placeholder="Project Detail"
-                        className="message">
-                    </textarea>
+                        className="message"
+                        required
+                    ></textarea>
+                    
                     <p><span>Note: </span> Your idea is 100% protected by our non <br /> disclosure agreement.</p>
                     <p className='mobile-para'><span>Note: </span> Your idea is 100% protected by our non disclosure agreement.</p>
-                    <button>Submit</button>
-                </div>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
         </div>
     )
