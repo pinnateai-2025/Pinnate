@@ -14,11 +14,11 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-                "service_53shxhb",   // Service ID
-                "template_96i4eji",  // Template ID
-                form.current,
-                "8D6AnpyRj5ss70uO7"    // Public Key
-            )
+        "service_53shxhb",   // Service ID
+        "template_96i4eji",  // Template ID
+        form.current,
+        "8D6AnpyRj5ss70uO7"    // Public Key
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -42,36 +42,38 @@ const Contact = () => {
         </div>
 
         <form ref={form} onSubmit={sendEmail} className="input-textarea">
-          <div className="inputs">
-            <input
-              type="text"
-              name="user_name"
-              placeholder="Name"
-              className="input-name"
-              required
-            />
-            <input
-              type="text"
-              name="user_phone"
-              placeholder="Phone Number"
-              className="input-phone-number"
-              required
-            />
-            <input
-              type="email"
-              name="user_email"
-              placeholder="Email ID"
-              className="input-email-id"
-              required
-            />
-          </div>
-          <div className="textarea">
-            <textarea
-              name="message"
-              placeholder="Project Detail"
-              className="textarea-message"
-              required
-            ></textarea>
+          <div className="input-text-area">
+            <div className="inputs">
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Name"
+                className="input-name"
+                required
+              />
+              <input
+                type="text"
+                name="user_phone"
+                placeholder="Phone Number"
+                className="input-phone-number"
+                required
+              />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Email ID"
+                className="input-email-id"
+                required
+              />
+            </div>
+            <div className="textarea">
+              <textarea
+                name="message"
+                placeholder="Project Detail"
+                className="textarea-message"
+                required
+              ></textarea>
+            </div>
           </div>
 
           <p className="note">
