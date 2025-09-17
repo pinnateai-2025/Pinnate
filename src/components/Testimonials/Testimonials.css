@@ -101,6 +101,17 @@
         margin-top: 180px;
         font-size: 50px;
     }
+
+    .testimonials {
+        width: 400px;
+    }
+}
+
+@media (max-width: 900px) {
+    .testimonials {
+        width: 350px;
+        height: 280px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -117,7 +128,6 @@
 
     .testimonials {
         width: 320px;
-        height: 180px;
         padding: 15px 20px;
         gap: 10px;
     }
@@ -138,7 +148,7 @@
 
     .testimonials {
         width: 70%;
-        height: 160px;
+        height: auto;
         padding: 15px 20px;
         gap: 10px;
     }
@@ -151,7 +161,6 @@
 
     .testimonials {
         width: 80%;
-        height: 150px;
     }
 }
 
@@ -167,7 +176,6 @@
 
     .testimonials {
         width: 90%;
-        height: 150px;
     }
 }
 
@@ -189,6 +197,5 @@
 
     .testimonials {
         width: 90%;
-        height: 180px;
     }
 }
