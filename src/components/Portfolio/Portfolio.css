@@ -173,6 +173,7 @@
     }
 
     .portfolio img {
+        width: 345px;
         height: 200px;
     }
 
@@ -187,6 +188,7 @@
     }
 
     .portfolio img {
+        width: 315px;
         height: 180px;
     }
 }
@@ -202,6 +204,7 @@
     }
 
     .portfolio img {
+         width: 280px;
         height: 160px;
     }
 }

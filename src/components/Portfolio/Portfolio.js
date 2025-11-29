@@ -11,7 +11,7 @@ const Portfolio = () => {
             <div className="portfolio-details">
                 <div className="portfolio">
                     <a href="https://www.thetablegem.com" target="_blank" rel="noopener noreferrer">
-                    <img src={TableGem} alt="Table-Gem" />
+                        <img src={TableGem} alt="Table-Gem" />
                     </a>
                     <div className="portfolio-text">
                         <h6>The Table Gem</h6>
