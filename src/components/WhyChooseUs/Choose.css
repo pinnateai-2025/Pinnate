@@ -27,7 +27,7 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 30px;
     padding: 150px;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 
 .why-choose-us {
@@ -67,7 +67,7 @@
 .why-choose p {
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
     letter-spacing: 0;
     color: rgba(255, 255, 255, 0.7);
@@ -93,6 +93,20 @@
     }
 }
 
+@media (max-width: 800px) {
+    .why-choose {
+        padding-left: 0px;
+    }
+
+    .why-choose h6 {
+        font-size: 16px;
+    }
+
+    .why-choose p {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 768px) {
     .why-choose-us {
         padding: 6px;
@@ -100,16 +114,6 @@
 
     .why-choose {
         padding-left: 0px;
-    }
-
-    .why-choose h6 {
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .why-choose p {
-        font-size: 16px;
-        line-height: 20px;
     }
 }
 
@@ -130,7 +134,7 @@
     }
 
     .why-choose p {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 20px;
     }
 }
