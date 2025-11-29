@@ -52,7 +52,7 @@ const Header = () => {
                     <h1>Design That <span>Empower</span> <br /> Real <span>Bussiness Growth</span></h1>
                     <h6>Your website is your first impression. We make sure it’s <br /> unforgettable, high-converting, and built to dominate.</h6>
                     <p className='heading-p'>We bring expertise, innovation, and user-focused design to every project. Let us transform your online <br /> presence with intuitive website design that drive growth and engagement.</p>
-                    <p className='mobile-view-p'>We bring expertise, innovation, and user-focused design to every project. Let us transform your online presence with intuitive website design that drive growth and engagement.</p>
+                    <p className='mobile-view-para'>We bring expertise, innovation, and user-focused design to every project. Let us transform your online presence with intuitive website design that drive growth and engagement.</p>
                 </div>
                 <div className="btns">
                     <div className='let-connect'>
