@@ -1,9 +1,13 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import companyLogo from "../../assets/logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
+
+    const navigate = useNavigate();
+
     const [isSticky, setIsSticky] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
 
@@ -41,13 +45,17 @@ const Navbar = () => {
         <div className={`navbar-container ${isSticky ? "sticky" : ""}`}>
             {/* Logo */}
             <div className="company-logo">
-                <img src={companyLogo} alt="company-logo" />
+                <img
+                    src={companyLogo}
+                    alt="company-logo"
+                    onClick={() => navigate("/")}
+                />
             </div>
 
             {/* Desktop Navbar */}
             <nav className="navbar">
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#home" onClick={() => navigate("/")}>Home</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>

@@ -15,6 +15,7 @@
 
 .company-logo {
     flex: 0 0 auto;
+    cursor: pointer;
 }
 
 .company-logo img {
